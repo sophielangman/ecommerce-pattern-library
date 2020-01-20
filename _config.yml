@@ -1,0 +1,5 @@
+permalink: pretty
+theme: jekyll_patternbot
+
+patternbot:
+  font_url: "https://fonts.googleapis.com/css?family=Playfair+Display:600,700|Roboto:300,300i,400,400i,500,500i,700&display=swap"

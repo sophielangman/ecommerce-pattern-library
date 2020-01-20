@@ -1,0 +1,19 @@
+:root {
+  --color-primary: black;
+  --color-white: white;
+  --color-light-grey: #fafafa;
+  --color-grey: #d6d4d0;
+  --color-dark-grey: #5c5c5c;
+  --color-dark-pink: #ba7f67;
+  --color-pale-pink: #f6c5ad;
+  --color-orange-brown: #a4702a;
+  --color-yellow-brown: #fcbe65;
+  --color-dusty-pink: #e6cdc5;
+
+  --font-serif: 'Playfair Display', serif;
+  --font-primary: Roboto, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+}
