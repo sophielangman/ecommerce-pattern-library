@@ -1,6 +1,6 @@
 :root {
-  --color-primary: black;
-  --color-white: white;
+  --color-primary: white;
+  --color-black: black;
   --color-light-grey: #fafafa;
   --color-grey: #d6d4d0;
   --color-dark-grey: #5c5c5c;
@@ -10,10 +10,48 @@
   --color-yellow-brown: #fcbe65;
   --color-dusty-pink: #e6cdc5;
 
-  --font-serif: 'Playfair Display', serif;
-  --font-primary: Roboto, sans-serif;
+  --font-primary: 'Playfair Display', serif;
+  --font-sans: Roboto, sans-serif;
 }
 
 html {
   font-family: var(--font-sans);
+}
+
+h1 {
+  font-family: var(--font-serif);
+  color: var(--color-black);
+}
+
+h2 {
+  font-family: var(--font-sans);
+  color: var(--color-black);
+}
+
+h3 {
+  font-family: var(--font-serif);
+  color: var(--color-primary);
+}
+
+h4 {
+  font-family: var(--font-sans);
+  color: var(--color-black);
+}
+
+h5{
+  font-family: var(--font-sans);
+  color: var(--color-black);
+}
+
+nav {
+  font-family: var(--font-sans);
+  color: var(--color-black);
+}
+
+a {
+  color:  var(--color-dark-pink);
+}
+
+mark {
+  background-color: var(--color-pale-pink);
 }
