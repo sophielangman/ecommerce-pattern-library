@@ -2,4 +2,37 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Bearer"
+  description : |
+    asdfasdfs
   font_url: "https://fonts.googleapis.com/css?family=Playfair+Display:600,700|Roboto:300,300i,400,400i,500,500i,700&display=swap"
+  rationales:
+    typefaces.sans: |
+      Roboto was chosen as it is a clean ledgible sans-serif that conveys the clean proffesional image that the Bearer company wants. It is to be used for smaller headers, the nav, body text and functional buttons.
+    typefaces.sans: |
+      Playfair was chosen as the serif as it is also proffesional and on the cusp of being a modern font. It is to be used for larger headers and decorative buttons.
+    colors.black: |
+      Black is used for nearly all the text, the nav text and any icons.
+    colors.primary: |
+      White is the primary colour on the website, used in the background of the website, nav and footer. Also used for the text on the home page cards.
+    colors.light-grey: |
+      Light grey is used on the bottom of the cards in the product list page.
+    colors.grey: |
+      Grey is used for any text fields.
+    colors.dark-grey: |
+      Dark grey is used for wishlist buttons.
+    colors.dark-pink: |
+      Dark pink is used for buttons.
+    colors.pale-pink: |
+      Pale pink is dark pink's hover color.
+    colors.orange-brown: |
+      Orange brown is used for buttons.
+    yellow.brown-pink: |
+      Yellow brown is orange brown's hover color.
+    color.dusty-pink: |
+      Dusty pink is for hovers on the nav.
+  colors:
+    background: "--color-primary"
+    accent: "--color-orange-brown"
+    patterns:
+      brand.logos: "--color-dusty-pink"
