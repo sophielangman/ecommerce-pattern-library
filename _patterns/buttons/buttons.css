@@ -1,59 +1,55 @@
 .btn-pink {
   background-color: var(--color-dark-pink);
-  border-color: var(--color-dark-pink);
-  border-width: 4px;
+  border: 2.5px solid var(--color-dark-pink);
   color: var(--color-primary);
   font-family: var(--font-primary);
   margin-bottom: 0;
-  padding-top: 2rem;
-  padding-bottom: .3rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
   text-decoration: none;
   font-size: 1.2962rem;
+  border-radius: 0;
 }
 
 .btn-pink:hover {
   background-color: var(--color-pale-pink);
-  border-color: var(--color-pale-pink);
+  border: 2.5px solid var(--color-pale-pink);
 }
 
 .btn-yellow {
   background-color: var(--color-orange-brown);
-  border-width: 4px;
-  border-color: var(--color-orange-brown);
+  border: 2.5px solid var(--color-orange-brown);
   color: var(--color-primary);
   font-family: var(--font-primary);
   margin-bottom: 0;
-  padding-top: 2rem;
-  padding-bottom: .3rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
   text-decoration: none;
   font-size: 1.2962rem;
+  border-radius: 0;
 }
 
 .btn-yellow:hover {
   background-color: var(--color-yellow-brown);
-  border-color: var(--color-yellow-brown);
+border: 2.5px solid var(--color-yellow-brown);
 }
 
 .btn-text {
-  background-color: none;
-  border-color: none;
+  background-color: transparent;
+  border-color: transparent;
   color: var(--color-black);
   font-family: var(--font-sans);
   margin-bottom: 0;
+  padding: .1rem .5rem 0 .5rem;
   text-decoration: none;
+  border-radius: 0;
 }
 
 .btn-text:hover {
+  color: var(--color-black);
   background-color: var(--color-dusty-pink);
+  border-color: transparent;
 }
 
 .btn-small {
-  background-color: none;
-  border-color: none;
+  background-color: transparent;
+  border-color: transparent;
   color: var(--color-dark-grey);
   font-family: var(--font-sans);
   margin-bottom: 0;
@@ -62,48 +58,42 @@
 
 .btn-small:hover {
   color: var(--color-black);
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .btn-black {
   background-color: var(--color-black);
-  border-color: var(--color-black);
-  border-width: 4px;
+  border: 2.5px solid var(--color-black);
   color: var(--color-primary);
   font-family: var(--font-sans);
   margin-bottom: 0;
-  padding-top: 1.3rem;
-  padding-bottom: .3rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding: .4rem 2rem .3rem 2rem;
   text-decoration: none;
   font-size: 1.2962rem;
+  border-radius: 0;
 }
 
 .btn-black:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-black);
-  border-width: 4px;
+  border: 2.5px solid var(--color-black);
   color: var(--color-black);
 }
 
 .btn-grey {
   background-color: var(--color-dark-grey);
-  border-color: var(--color-dark-grey);
-  border-width: 4px;
+  border: 2.5px solid var(--color-dark-grey);
   color: var(--color-primary);
   font-family: var(--font-sans);
   margin-bottom: 0;
-  padding-top: 2rem;
-  padding-bottom: .3rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding: .4rem 2rem .3rem 2rem;
   text-decoration: none;
   font-size: 1.2962rem;
+  border-radius: 0;
 }
 
 .btn-grey:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-dark-grey);
-  border-width: 4px;
+  border: 2.5px solid var(--color-dark-grey);
   color: var(--color-dark-grey);
 }
