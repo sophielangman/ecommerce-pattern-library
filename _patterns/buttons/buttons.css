@@ -1,14 +1,16 @@
 .btn-pink {
   background-color: var(--color-dark-pink);
   border-color: var(--color-dark-pink);
+  border-width: 4px;
   color: var(--color-primary);
   font-family: var(--font-primary);
   margin-bottom: 0;
-  padding-top: 1.3rem;
+  padding-top: 2rem;
   padding-bottom: .3rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   text-decoration: none;
+  font-size: 1.2962rem;
 }
 
 .btn-pink:hover {
@@ -18,15 +20,17 @@
 
 .btn-yellow {
   background-color: var(--color-orange-brown);
+  border-width: 4px;
   border-color: var(--color-orange-brown);
   color: var(--color-primary);
   font-family: var(--font-primary);
   margin-bottom: 0;
-  padding-top: 1.3rem;
+  padding-top: 2rem;
   padding-bottom: .3rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   text-decoration: none;
+  font-size: 1.2962rem;
 }
 
 .btn-yellow:hover {
@@ -34,7 +38,7 @@
   border-color: var(--color-yellow-brown);
 }
 
-.btn-text:hover {
+.btn-text {
   background-color: none;
   border-color: none;
   color: var(--color-black);
@@ -43,13 +47,27 @@
   text-decoration: none;
 }
 
-.btn-yellow:hover {
+.btn-text:hover {
   background-color: var(--color-dusty-pink);
 }
 
-.basic-black {
+.btn-small {
+  background-color: none;
+  border-color: none;
+  color: var(--color-dark-grey);
+  font-family: var(--font-sans);
+  margin-bottom: 0;
+  font-size: .6784rem;
+}
+
+.btn-small:hover {
+  color: var(--color-black);
+}
+
+.btn-black {
   background-color: var(--color-black);
   border-color: var(--color-black);
+  border-width: 4px;
   color: var(--color-primary);
   font-family: var(--font-sans);
   margin-bottom: 0;
@@ -58,11 +76,34 @@
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   text-decoration: none;
+  font-size: 1.2962rem;
 }
 
-.basic-black:hover {
+.btn-black:hover {
   background-color: var(--color-primary);
   border-color: var(--color-black);
   border-width: 4px;
   color: var(--color-black);
+}
+
+.btn-grey {
+  background-color: var(--color-dark-grey);
+  border-color: var(--color-dark-grey);
+  border-width: 4px;
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: .3rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  text-decoration: none;
+  font-size: 1.2962rem;
+}
+
+.btn-grey:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-dark-grey);
+  border-width: 4px;
+  color: var(--color-dark-grey);
 }

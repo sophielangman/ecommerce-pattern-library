@@ -10,8 +10,8 @@
   --color-yellow-brown: #fcbe65;
   --color-dusty-pink: #e6cdc5;
 
-  --font-primary: 'Playfair Display', serif;
-  --font-sans: Roboto, sans-serif;
+  --font-primary: didot, serif;
+  --font-sans: 'acumin pro', sans-serif;
 }
 
 html {
