@@ -1,3 +1,6 @@
+/* Buttons */
+
+/* Pinkk button */
 .btn-pink {
   background-color: var(--color-dark-pink);
   border: 2.5px solid var(--color-dark-pink);
@@ -14,6 +17,7 @@
   border: 2.5px solid var(--color-pale-pink);
 }
 
+/* Yelloww button */
 .btn-yellow {
   background-color: var(--color-orange-brown);
   border: 2.5px solid var(--color-orange-brown);
@@ -30,6 +34,7 @@
 border: 2.5px solid var(--color-yellow-brown);
 }
 
+/* Nav button */
 .btn-text {
   background-color: transparent;
   border-color: transparent;
@@ -47,6 +52,7 @@ border: 2.5px solid var(--color-yellow-brown);
   border-color: transparent;
 }
 
+/* Small button */
 .btn-small {
   background-color: transparent;
   border-color: transparent;
@@ -62,6 +68,7 @@ border: 2.5px solid var(--color-yellow-brown);
   border-color: transparent;
 }
 
+/* Blackk button */
 .btn-black {
   background-color: var(--color-black);
   border: 2.5px solid var(--color-black);
@@ -80,6 +87,7 @@ border: 2.5px solid var(--color-yellow-brown);
   color: var(--color-black);
 }
 
+/* Greyy button */
 .btn-grey {
   background-color: var(--color-dark-grey);
   border: 2.5px solid var(--color-dark-grey);
