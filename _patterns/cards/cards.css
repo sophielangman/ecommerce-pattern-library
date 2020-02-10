@@ -7,3 +7,13 @@
   text-decoration: underline;
   color: var(--color-primary);
 }
+
+.product-card-text {
+  font-family: var(--font-sans);
+  background-color: var(--color-light-grey);
+  color: var(--color-black);
+}
+
+.product-card:hover .product-card-text {
+  background-color: var(--color-dusty-pink);
+}
