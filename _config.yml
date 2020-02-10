@@ -32,7 +32,7 @@ patternbot:
     color.dusty-pink: |
       Dusty pink is for hovers on the nav.
   colors:
-    background: "--color-light-grey"
+    background: "--color-primary"
     accent: "--color-orange-brown"
     sidebar: "--color-dusty-pink"
     patterns:
