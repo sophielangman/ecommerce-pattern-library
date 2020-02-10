@@ -3,7 +3,7 @@
   font-family: var(--font-primary);
 }
 
-.home-card:hover {
+.home-card:hover h3 {
   text-decoration: underline;
   color: var(--color-primary);
 }
