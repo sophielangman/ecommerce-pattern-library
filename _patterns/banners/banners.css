@@ -1,0 +1,98 @@
+.banner-box {
+padding-left: 3em;
+}
+
+.banner-h1 {
+  font-family: var(--font-primary);
+  text-align: center;
+  width: 8em;
+}
+
+.banner-text {
+  font-family: var(--font-sans);
+  width: 26em;
+}
+
+.banner-button-box {
+  text-align: center;
+}
+
+.banner-pink {
+  padding-right: 1em;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 1000;
+  top: 4em;
+}
+
+.relative {
+  position: relative;
+}
+
+.large-banner {
+  display: none;
+}
+
+.medium-banner {
+  display: none;
+}
+
+.small-banner {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-h1 {
+    text-align: left;
+    width: 12em;
+  }
+
+  .banner-text {
+    width: 30em;
+  }
+
+  .banner-button-box {
+    text-align: left;
+  }
+
+  .large-banner {
+    display: none;
+  }
+
+  .medium-banner {
+    display: block;
+  }
+
+  .small-banner {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-h1 {
+    text-align: left;
+    width: 12em;
+  }
+
+  .banner-text {
+    width: 30em;
+  }
+
+  .large-banner {
+    display: block;
+  }
+
+  .medium-banner {
+    display: none;
+  }
+
+  .small-banner {
+    display: none;
+  }
+
+}
