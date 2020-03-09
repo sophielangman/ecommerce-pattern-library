@@ -1,0 +1,16 @@
+title: "Cards"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  product-card:
+    title: "Product card"
+    description: |
+      To be used on the product list page.
+    width: "17em"
+
+  home-card:
+    title: "Home card"
+    description: |
+      To be used on the home page as a call-to-actions.
+    width: "28em"

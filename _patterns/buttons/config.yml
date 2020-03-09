@@ -1,0 +1,49 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic-yellow:
+    title: "Basic yellow"
+    description: |
+      To be used on banners as a call-to-action. Only use on home or promotional pages.
+  basic-pink:
+    title: "Basic pink"
+    description: |
+      Alternative colour for the purpose of adding dimension and contrast to the page. To be used on banners as a call-to-action. Only use on home or promotional pages.
+  basic-grey:
+    title: "Basic grey"
+    description: |
+      To be used product detail and checkout pages only. Primary use as "add to wishlist" button on product detail.
+  basic-black:
+    title: "Basic black"
+    description: |
+      To be used product detail and checkout pages only. Primary use as "add to cart" and "proceed to checkout" button on product detail.
+  text-button:
+    title: "Text button"
+    description: |
+      Only to be used in the nav.
+  small-button:
+    title: "Small button"
+    description: |
+      Only to be on checkout page. Primary use as a "remove" or "Move to wishlist" button, existing under the quantity drop down.
+  search:
+    title: "Search"
+    description: |
+      Clickable icon to be used in the nav.
+  cart:
+    title: "Cart"
+    description: |
+      Clickable icon to be used in the nav.
+  instagram:
+    title: "Instagram"
+    description: |
+      Clickable icon to be used in the footer.
+  facebook:
+    title: "Facebook"
+    description: |
+      Clickable icon to be used in the footer.
+  phone:
+    title: "Phone"
+    description: |
+      Clickable icon to be used in the footer.
