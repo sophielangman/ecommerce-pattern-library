@@ -1,0 +1,9 @@
+nav {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: var(--color-primary);
+}
+
+.foot-logo {
+  max-width: 9em;
+}
